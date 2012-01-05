@@ -1,0 +1,15 @@
+# pack-refs with: peeled 
+38cc9b607f85017b095793cab6c129bc9844f441 refs/remotes/paslab/master
+3a5f39bbaeedfc3a272b40cc1cc9c772ef3443ad refs/remotes/paslab/paslab/chiaheng-tmp
+979564be92809e544463d94fdccbb7edce02b009 refs/remotes/paslab/paslab/master
+1dff8a97ffc905e758be63dca2cb122f2860eef1 refs/remotes/paslab/paslab/shocklink/master
+bf2c51c7b1eaabd2aaac2ff94f5f1dbcce1be096 refs/remotes/paslab/paslab/tctsai/master
+6394bd0e05441c363ebb73597c74c951378810e6 refs/remotes/paslab/stable-0.12
+6ed912999d6ef636a5be5ccb266d7d3c0f0310b4 refs/remotes/paslab/stable-0.13
+b04c3db504f35b57a2ce519313f3d49fcecf6cb3 refs/tags/v0.12.4
+174f225e9d62e8f3002e274e4f718bd2a967fbf4 refs/tags/v0.12.5
+6ed912999d6ef636a5be5ccb266d7d3c0f0310b4 refs/tags/v0.13.0
+fd2f659ee3f6f991f4f194f3fde5c9f957fd663d refs/tags/v0.13.0-rc0
+72230c523bda18d4dd2f7d16f96cc59e8fbbd6c9 refs/tags/v0.13.0-rc1
+472de0c851af86d26e3ccebf4154a27393091053 refs/tags/v0.13.0-rc2
+5c0961618d5e8f92d85386cf110117e6ab5dd210 refs/tags/v0.13.0-rc3

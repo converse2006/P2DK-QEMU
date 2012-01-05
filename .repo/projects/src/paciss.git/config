@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+[user]
+	name = tianman
+	email = arucuid@gmail.com
+[remote "paslab"]
+	url = http://repos.pas.csie.ntu.edu.tw/android.paslab/paslab/platform/paciss.git
+	review = we.donot.host.gerrit.pas.csie.ntu.edu.tw
+	projectname = platform/paciss
+	fetch = +refs/heads/*:refs/remotes/paslab/*

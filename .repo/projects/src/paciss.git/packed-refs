@@ -1,0 +1,11 @@
+# pack-refs with: peeled 
+6fe6ac7d642dc363f54fba5dbaef87248808fb2a refs/remotes/paslab/FOSSIL/2009-1225.android.master
+6fe6ac7d642dc363f54fba5dbaef87248808fb2a refs/remotes/paslab/FOSSIL/2009-1225.master
+82e977945487e647d254504d7ed0cfec866ef6b5 refs/remotes/paslab/FOSSIL/2009-1225.paslab.trunk
+fd50f3b39e878886c0bee22c860cabe47e2b72ba refs/remotes/paslab/FOSSIL/2009-1225.paslab.trunk.old.2009-1014
+c9289f59c9b199990d15e14fd5a3155e8924445c refs/remotes/paslab/paslab/master
+c9289f59c9b199990d15e14fd5a3155e8924445c refs/remotes/paslab/paslab/tctsai/master
+657fe4d3e6baa57b88f0ea9924209e2f1d821ff0 refs/tags/FOSSIL/2010-0709.sampling
+^82753269de36a80054008d91eef8cd98e7728094
+576544c50eb10281343d10d566a8710c984ac581 refs/tags/paslab/year-demo-2010-0111
+^5561a668ff57d571943047d8ed3070472808d579

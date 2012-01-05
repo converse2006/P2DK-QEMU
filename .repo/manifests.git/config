@@ -1,0 +1,12 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+[remote "origin"]
+	url = http://repos.pas.csie.ntu.edu.tw/android.paslab/paslab/platform/manifest.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "default"]
+	remote = origin
+	merge = paslab/master
+[user]
+	name = tianman
+	email = arucuid@gmail.com

@@ -1,0 +1,570 @@
+	;  /home/converse/virtual_platform1/prebuilt/linux-x86/toolchain/pacduo.2009-1111/toolchain/DSP1/lib/gcc-lib/pacdsp-pacc32-linux/4.0/be::4.0
+
+	;-----------------------------------------------------------
+	; Compiling /home/converse/virtual_platform1/testsuit/standalone/sha-input_small/sha_driver.c (sha_driver.B)
+	;-----------------------------------------------------------
+
+	;-----------------------------------------------------------
+	; Options:
+	;-----------------------------------------------------------
+	;  Target:PACDSP, ISA:ISA_2, Endian:little, Pointer Size:32
+	;  -O0	(Optimization level)
+	;  -g0	(Debug level)
+	;  -m2	(Report advisories)
+	;-----------------------------------------------------------
+
+	.file	1	"/home/converse/virtual_platform1/out/target/obj/modules/pac/executable/sha-input_small-pllab/<command-line>"
+	.file	2	"/home/converse/virtual_platform1/testsuit/standalone/sha-input_small/sha_driver.c"
+	.file	3	"/home/converse/virtual_platform1/testsuit/standalone/sha-input_small/sha.h"
+	.file	4	"/home/converse/virtual_platform1/src/p2sdk//lib/libpp/libpp.h"
+
+
+	.section .text, "ax", "progbits"
+	.align	4
+	.section .text
+
+	; Program Unit: pp_wait_mbox
+	.proc	pp_wait_mbox#
+pp_wait_mbox#:	; 0x0
+	; lcl_spill_temp_0 = 16
+; Block: 1 Pred: Succ: 2 
+; BB:1 cycle count: 0
+.BB1_pp_wait_mbox:	; 0x0
+	.loc	4	99	0
+;  95  int pp_mbox_send_c(struct mbox_msg* msg);
+;  96  
+;  97  /* Deprecated */
+;  98  static inline void pp_wait_mbox(struct mbox_msg *msg)
+;  99  {pp_mbox_recv_w(msg);}
+ {  
+;	.prologue
+	      subi sp3,sp3,32 ;;      		; [] 
+	      subi sp,sp,32           		; [] 
+	      nop                     		; [] 
+	      subi sp2,sp2,32         		; [] 
+	      nop                     		; [] 
+ } {  
+;	.savesp r7, 0
+	      sw r7,sp3,16 ;;         		; [] lcl_spill_temp_0
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      addi A3,sp2,32          		; [] msg
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      lw D0,A3,0              		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	.global	pp_mbox_recv_w
+	      j r7,pp_mbox_recv_w# ;; 		; [] pp_mbox_recv_w
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      sw D0,sp2,0             		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ }
+
+; Block: 2 Pred: 1 Succ: 
+; BB:2 cycle count: 0
+.BB2_pp_wait_mbox:	; 0x37
+ {  
+	      lw r7,sp3,16 ;;         		; [] lcl_spill_temp_0
+	      addi sp,sp,32           		; [] 
+	      nop                     		; [] 
+	      addi sp2,sp2,32         		; [] 
+	      nop                     		; [] 
+ } {  
+	      addi sp3,sp3,32 ;;      		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      jr r7 ;;                		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ }
+
+;PU cycle count: 0.000000
+	.endp	pp_wait_mbox#
+	.section .text
+
+	; Program Unit: pp_send_mbox
+	.proc	pp_send_mbox#
+pp_send_mbox#:	; 0x64
+	; lcl_spill_temp_1 = 16
+; Block: 1 Pred: Succ: 2 
+; BB:1 cycle count: 0
+.BB1_pp_send_mbox:	; 0x64
+	.loc	4	102	0
+; 100  /* Deprecated */
+; 101  static inline void pp_send_mbox(struct mbox_msg *msg)
+; 102  {pp_mbox_send_w(msg);}
+ {  
+;	.prologue
+	      subi sp3,sp3,32 ;;      		; [] 
+	      subi sp,sp,32           		; [] 
+	      nop                     		; [] 
+	      subi sp2,sp2,32         		; [] 
+	      nop                     		; [] 
+ } {  
+;	.savesp r7, 0
+	      sw r7,sp3,16 ;;         		; [] lcl_spill_temp_1
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      addi A3,sp2,32          		; [] msg
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      lw D0,A3,0              		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	.global	pp_mbox_send_w
+	      j r7,pp_mbox_send_w# ;; 		; [] pp_mbox_send_w
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      sw D0,sp2,0             		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ }
+
+; Block: 2 Pred: 1 Succ: 
+; BB:2 cycle count: 0
+.BB2_pp_send_mbox:	; 0x9b
+ {  
+	      lw r7,sp3,16 ;;         		; [] lcl_spill_temp_1
+	      addi sp,sp,32           		; [] 
+	      nop                     		; [] 
+	      addi sp2,sp2,32         		; [] 
+	      nop                     		; [] 
+ } {  
+	      addi sp3,sp3,32 ;;      		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      jr r7 ;;                		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ }
+
+;PU cycle count: 0.000000
+	.endp	pp_send_mbox#
+	.section .text
+
+	; Program Unit: main
+	.proc	main#
+	.global	main#
+main#:	; 0xc8
+	; sha_info = 16
+	; lcl_spill_temp_2 = 108
+; Block: 1 Pred: Succ: 2 
+; BB:1 cycle count: 0
+.BB1_main:	; 0xc8
+	.loc	2	21	0
+;  17  }
+;  18  #endif
+;  19  
+;  20  int main(int argc, char **argv)
+;  21  {
+ {  
+;	.prologue
+	      subi sp3,sp3,112 ;;     		; [] 
+	      subi sp,sp,112          		; [] 
+	      nop                     		; [] 
+	      subi sp2,sp2,112        		; [] 
+	      nop                     		; [] 
+ } {  
+;	.savesp r7, 0
+	      sw r7,sp3,108 ;;        		; [] lcl_spill_temp_2
+	      nop                     		; [] 
+	      nop                     		; [] 
+	.loc	2	26	0
+;  22      SHA_INFO sha_info;
+;  23  
+;  24      //puts("# file: " stringify(INPUT_FILENAME) "\n");
+;  25     
+;  26      sha_stream(&sha_info);
+	      addi D0,sp2,16          		; [] sha_info
+	      nop                     		; [] 
+ } {  
+	.global	sha_stream
+	      j r7,sha_stream# ;;     		; [] sha_stream
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      sw D0,sp2,0             		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ }
+
+; Block: 2 Pred: 1 Succ: 3 
+; BB:2 cycle count: 0
+.BB2_main:	; 0xf0
+ {  
+	      nop ;;                  		; [] 
+	.loc	2	27	0
+;  27      sha_result(&sha_info);
+	      addi d0,sp,16           		; [] sha_info
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	.global	sha_result
+	      j r7,sha_result# ;;     		; [] sha_result
+	      sw d0,sp,0              		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ }
+
+; Block: 3 Pred: 2 Succ: 
+; BB:3 cycle count: 0
+.BB3_main:	; 0x113
+ {  
+	.loc	2	29	0
+;  28  
+;  29  	return sha_info.digest[0];
+	      lw r7,sp3,108 ;;        		; [] lcl_spill_temp_2
+	      lw d4,sp,16             		; [] sha_info
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      addi sp3,sp3,112 ;;     		; [] 
+	      addi sp,sp,112          		; [] 
+	      nop                     		; [] 
+	      addi sp2,sp2,112        		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      jr r7 ;;                		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ } {  
+	      nop ;;                  		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+	      nop                     		; [] 
+ }
+
+;PU cycle count: 0.000000
+	.endp	main#
+	.section .text
+	.align 4
+;	.gpvalue 0
+
+	.section .debug_info, "", "progbits"
+	.align	0
+	.byte	0x4d, 0x01, 0x00, 0x00, 0x02, 0x00
+	.int.ua	.debug_abbrev
+	.int.ua	0x682f0104, 0x2f656d6f, 0x766e6f63, 0x65737265
+	.int.ua	0x7269762f, 0x6c617574, 0x616c705f, 0x726f6674
+	.int.ua	0x742f316d, 0x73747365, 0x2f746975, 0x6e617473
+	.int.ua	0x6f6c6164, 0x732f656e, 0x692d6168, 0x7475706e
+	.int.ua	0x616d735f, 0x732f6c6c, 0x645f6168, 0x65766972
+	.int.ua	0x00632e72, 0x6d6f682f, 0x6f632f65, 0x7265766e
+	.int.ua	0x762f6573, 0x75747269, 0x705f6c61, 0x6674616c
+	.int.ua	0x316d726f, 0x74756f2f, 0x7261742f, 0x2f746567
+	.int.ua	0x2f6a626f, 0x75646f6d, 0x2f73656c, 0x2f636170
+	.int.ua	0x63657865, 0x62617475, 0x732f656c, 0x692d6168
+	.int.ua	0x7475706e, 0x616d735f, 0x702d6c6c, 0x62616c6c
+	.byte	0x00, 0x6f, 0x70, 0x65, 0x6e, 0x63, 0x63, 0x20
+	.byte	0x34, 0x2e, 0x30, 0x00, 0x01, 0x00
+	.int.ua	.debug_line
+	.int.ua	0x70630402, 0x61775f70, 0x6d5f7469, 0x00786f62
+	.byte	0x03, 0x92, 0x30, 0x20
+	.int.ua	.BB1_pp_wait_mbox
+	.int.ua	.BB1_pp_wait_mbox + 0x64
+	.int.ua	0x000000f7, 0x6d630403, 0x02006773, 0x02000091
+	.int.ua	0x70706604, 0x6e65735f, 0x626d5f64, 0x0300786f
+	.byte	0x92, 0x30, 0x20
+	.int.ua	.BB1_pp_send_mbox
+	.int.ua	.BB1_pp_send_mbox + 0x64
+	.int.ua	0x00000122, 0x6d660403, 0x02006773, 0x04000091
+	.byte	0x02, 0x15, 0x6d, 0x61, 0x69, 0x6e, 0x00, 0x01
+	.byte	0x04, 0x92, 0x30, 0xf0, 0x00
+	.int.ua	.BB1_main
+	.int.ua	.BB1_main + 0x78
+	.int.ua	0x61150203, 0x00636772, 0x03009102, 0x72611502
+	.byte	0x67, 0x76, 0x00, 0x02, 0x91, 0x04, 0x00, 0x00
+	.byte	0x00
+
+	.section .debug_aranges, "", "progbits"
+	.align	0
+	.byte	0x1c, 0x00, 0x00, 0x00, 0x02, 0x00
+	.int.ua	.debug_info
+	.byte	0x04, 0x00, 0x00, 0x00, 0x00, 0x00
+	.int.ua	.BB1_pp_wait_mbox
+	.int.ua	.BB1_main - .BB1_pp_wait_mbox + 0x78
+	.byte	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+
+	.section .debug_pubnames, "", "progbits"
+	.align	0
+	.byte	0x17, 0x00, 0x00, 0x00, 0x02, 0x00
+	.int.ua	.debug_info
+	.int.ua	0x00000151, 0x00000122, 0x6e69616d, 0x00000000
+	.byte	0x00
+
+	.section .debug_abbrev, "", "progbits"
+	.align	0
+	.int.ua	0x03011101, 0x25081b08, 0x420b1308, 0x0006100b
+	.int.ua	0x012e0200, 0x0b3b0b3a, 0x0a400803, 0x01120111
+	.int.ua	0x00001301, 0x3a000503, 0x030b3b0b, 0x000a0208
+	.int.ua	0x012e0400, 0x0b3b0b3a, 0x0c3f0803, 0x01110a40
+	.byte	0x12, 0x01, 0x00, 0x00, 0x00, 0x00
+	.section	.note.GNU-stack,"",@progbits
+

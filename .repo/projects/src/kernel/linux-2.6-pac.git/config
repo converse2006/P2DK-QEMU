@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+[user]
+	name = tianman
+	email = arucuid@gmail.com
+[remote "paslab"]
+	url = http://repos.pas.csie.ntu.edu.tw/android.paslab/paslab/kernel/linux-2.6-pac.git
+	review = we.donot.host.gerrit.pas.csie.ntu.edu.tw
+	projectname = kernel/linux-2.6-pac
+	fetch = +refs/heads/*:refs/remotes/paslab/*
+[branch "gkk886"]
+	remote = paslab
+	merge = refs/heads/paslab/master

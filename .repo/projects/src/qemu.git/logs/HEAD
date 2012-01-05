@@ -1,0 +1,52 @@
+979564be92809e544463d94fdccbb7edce02b009 7515471fce0c2488e6194565bdd0bdadf4273077 tianman <arucuid@gmail.com> 1303368293 +0800	checkout: moving from 979564be92809e544463d94fdccbb7edce02b009 to 7515471fce0c2488e6194565bdd0bdadf4273077
+7515471fce0c2488e6194565bdd0bdadf4273077 38cc9b607f85017b095793cab6c129bc9844f441 tianman <arucuid@gmail.com> 1303370530 +0800	checkout: moving from 7515471fce0c2488e6194565bdd0bdadf4273077 to NAME
+38cc9b607f85017b095793cab6c129bc9844f441 38cc9b607f85017b095793cab6c129bc9844f441 tianman <arucuid@gmail.com> 1303370640 +0800	checkout: moving from NAME to tianman
+38cc9b607f85017b095793cab6c129bc9844f441 7515471fce0c2488e6194565bdd0bdadf4273077 tianman <arucuid@gmail.com> 1303370903 +0800	checkout: moving from tianman to 7515471fce0c2488e6194565bdd0bdadf4273077
+7515471fce0c2488e6194565bdd0bdadf4273077 38cc9b607f85017b095793cab6c129bc9844f441 tianman <arucuid@gmail.com> 1303370993 +0800	checkout: moving from 7515471fce0c2488e6194565bdd0bdadf4273077 to tianman
+38cc9b607f85017b095793cab6c129bc9844f441 7515471fce0c2488e6194565bdd0bdadf4273077 tianman <arucuid@gmail.com> 1303371099 +0800	7515471fce0c2488e6194565bdd0bdadf4273077: updating HEAD
+7515471fce0c2488e6194565bdd0bdadf4273077 cf1098c99d28029b0a759b555d320c8d9fc6c01a tianman <arucuid@gmail.com> 1303452304 +0800	commit: 123
+cf1098c99d28029b0a759b555d320c8d9fc6c01a 38cc9b607f85017b095793cab6c129bc9844f441 tianman <arucuid@gmail.com> 1303452317 +0800	checkout: moving from tianman to again
+38cc9b607f85017b095793cab6c129bc9844f441 7515471fce0c2488e6194565bdd0bdadf4273077 tianman <arucuid@gmail.com> 1303452745 +0800	checkout: moving from again to try
+7515471fce0c2488e6194565bdd0bdadf4273077 cf1098c99d28029b0a759b555d320c8d9fc6c01a tianman <arucuid@gmail.com> 1303453385 +0800	checkout: moving from try to tianman
+cf1098c99d28029b0a759b555d320c8d9fc6c01a a948767b7b5499353c12a5327ff40e632b899f03 tianman <arucuid@gmail.com> 1303732688 +0800	commit: 123
+a948767b7b5499353c12a5327ff40e632b899f03 7515471fce0c2488e6194565bdd0bdadf4273077 tianman <arucuid@gmail.com> 1303732705 +0800	checkout: moving from tianman to try
+7515471fce0c2488e6194565bdd0bdadf4273077 e47e9954397fa427d6e00d289fa3845c7e94d1b2 tianman <arucuid@gmail.com> 1303732854 +0800	checkout: moving from try to gkk886
+e47e9954397fa427d6e00d289fa3845c7e94d1b2 d084af27b284f23ccd7d932c4b6798ed0ba3de30 tianman <arucuid@gmail.com> 1303807101 +0800	checkout: moving from gkk886 to tmp
+d084af27b284f23ccd7d932c4b6798ed0ba3de30 f080f5b018825a3d5d18a38652059921ca2a6198 tianman <arucuid@gmail.com> 1304493605 +0800	commit: 123
+f080f5b018825a3d5d18a38652059921ca2a6198 a948767b7b5499353c12a5327ff40e632b899f03 tianman <arucuid@gmail.com> 1304493627 +0800	checkout: moving from tmp to tianman
+a948767b7b5499353c12a5327ff40e632b899f03 25764cd6b0d25bb5e04c9fe14db35f43711505c3 tianman <arucuid@gmail.com> 1306240586 +0800	commit: 456
+25764cd6b0d25bb5e04c9fe14db35f43711505c3 451c8107c8fbe7f73775ff096c811a3d5b999efd tianman <arucuid@gmail.com> 1306240603 +0800	checkout: moving from tianman to gkk886
+451c8107c8fbe7f73775ff096c811a3d5b999efd 6b9fc44c4c911a6f4421962d46e1c6da0b992d6a tianman <arucuid@gmail.com> 1306240947 +0800	commit (merge): Merge branch 'tianman' into gkk886
+6b9fc44c4c911a6f4421962d46e1c6da0b992d6a 5cf61e979cc9561ed1acc556710376f3e0289ebb tianman <arucuid@gmail.com> 1308663290 +0800	commit: 123
+5cf61e979cc9561ed1acc556710376f3e0289ebb 7101b3ab6d0e40496adfdb69dad2cc3ffd134207 tianman <arucuid@gmail.com> 1308663300 +0800	checkout: moving from gkk886 to paslab/paslab/chiaheng-tmp
+7101b3ab6d0e40496adfdb69dad2cc3ffd134207 5cf61e979cc9561ed1acc556710376f3e0289ebb tianman <arucuid@gmail.com> 1308663349 +0800	checkout: moving from 7101b3ab6d0e40496adfdb69dad2cc3ffd134207 to gkk886
+5cf61e979cc9561ed1acc556710376f3e0289ebb 5cf61e979cc9561ed1acc556710376f3e0289ebb tianman <arucuid@gmail.com> 1308663494 +0800	checkout: moving from gkk886 to chiaheng
+5cf61e979cc9561ed1acc556710376f3e0289ebb 5cf61e979cc9561ed1acc556710376f3e0289ebb tianman <arucuid@gmail.com> 1308663531 +0800	checkout: moving from chiaheng to gkk886
+5cf61e979cc9561ed1acc556710376f3e0289ebb 7101b3ab6d0e40496adfdb69dad2cc3ffd134207 tianman <arucuid@gmail.com> 1308663577 +0800	checkout: moving from gkk886 to chiaheng
+7101b3ab6d0e40496adfdb69dad2cc3ffd134207 52fdb6fa09a67b492afa2c8131bb47faf69028ae tianman <arucuid@gmail.com> 1308663961 +0800	commit: 123
+52fdb6fa09a67b492afa2c8131bb47faf69028ae 3a5f39bbaeedfc3a272b40cc1cc9c772ef3443ad tianman <arucuid@gmail.com> 1308663969 +0800	checkout: moving from chiaheng to paslab/paslab/chiaheng-tmp
+3a5f39bbaeedfc3a272b40cc1cc9c772ef3443ad 25d8ed733d958157ed40a68a4a2700c3b375dce5 tianman <arucuid@gmail.com> 1309162524 +0800	commit: 123
+25d8ed733d958157ed40a68a4a2700c3b375dce5 5cf61e979cc9561ed1acc556710376f3e0289ebb tianman <arucuid@gmail.com> 1309162547 +0800	checkout: moving from paslab/paslab/chiaheng-tmp to gkk886
+5cf61e979cc9561ed1acc556710376f3e0289ebb 7515471fce0c2488e6194565bdd0bdadf4273077 tianman <arucuid@gmail.com> 1309162616 +0800	checkout: moving from gkk886 to 7515471fce0c2488e6194565bdd0bdadf4273077^0
+7515471fce0c2488e6194565bdd0bdadf4273077 5cf61e979cc9561ed1acc556710376f3e0289ebb tianman <arucuid@gmail.com> 1309162647 +0800	rebase: updating HEAD
+5cf61e979cc9561ed1acc556710376f3e0289ebb 59c5f109ce73f123b6f5f97447465898d51b7372 tianman <arucuid@gmail.com> 1309162730 +0800	checkout: moving from gkk886 to gkk886new
+59c5f109ce73f123b6f5f97447465898d51b7372 7515471fce0c2488e6194565bdd0bdadf4273077 tianman <arucuid@gmail.com> 1309162919 +0800	7515471fce0c2488e6194565bdd0bdadf4273077: updating HEAD
+7515471fce0c2488e6194565bdd0bdadf4273077 59c5f109ce73f123b6f5f97447465898d51b7372 tianman <arucuid@gmail.com> 1309163112 +0800	checkout: moving from gkk886new to gkk886
+59c5f109ce73f123b6f5f97447465898d51b7372 dae4d899681d3276fcfba129e86417f988454ac9 tianman <arucuid@gmail.com> 1312882182 +0800	commit: nothing happen
+dae4d899681d3276fcfba129e86417f988454ac9 25764cd6b0d25bb5e04c9fe14db35f43711505c3 tianman <arucuid@gmail.com> 1312882212 +0800	checkout: moving from gkk886 to tianman
+25764cd6b0d25bb5e04c9fe14db35f43711505c3 dae4d899681d3276fcfba129e86417f988454ac9 tianman <arucuid@gmail.com> 1312884094 +0800	checkout: moving from tianman to gkk886
+dae4d899681d3276fcfba129e86417f988454ac9 25764cd6b0d25bb5e04c9fe14db35f43711505c3 tianman <arucuid@gmail.com> 1312896637 +0800	checkout: moving from gkk886 to tianman
+25764cd6b0d25bb5e04c9fe14db35f43711505c3 c9675891e32905b9fbd000bee22d09bfc8205041 tianman <arucuid@gmail.com> 1313128742 +0800	commit: arm_insn improve
+c9675891e32905b9fbd000bee22d09bfc8205041 dae4d899681d3276fcfba129e86417f988454ac9 tianman <arucuid@gmail.com> 1313128765 +0800	checkout: moving from tianman to gkk886
+dae4d899681d3276fcfba129e86417f988454ac9 c9675891e32905b9fbd000bee22d09bfc8205041 tianman <arucuid@gmail.com> 1313128843 +0800	checkout: moving from gkk886 to tianman
+c9675891e32905b9fbd000bee22d09bfc8205041 dae4d899681d3276fcfba129e86417f988454ac9 tianman <arucuid@gmail.com> 1313128988 +0800	checkout: moving from tianman to gkk886
+dae4d899681d3276fcfba129e86417f988454ac9 59c5f109ce73f123b6f5f97447465898d51b7372 tianman <arucuid@gmail.com> 1313129107 +0800	checkout: moving from gkk886 to gkk886new
+59c5f109ce73f123b6f5f97447465898d51b7372 c6ce700dfc9d40221241abba5cb613ee02233b90 tianman <arucuid@gmail.com> 1313130214 +0800	commit: iomem
+c6ce700dfc9d40221241abba5cb613ee02233b90 c9675891e32905b9fbd000bee22d09bfc8205041 tianman <arucuid@gmail.com> 1313130224 +0800	checkout: moving from gkk886new to tianman
+c9675891e32905b9fbd000bee22d09bfc8205041 b76644ca0ae3cb5cec868efe0ee849d5b6adad2c tianman <arucuid@gmail.com> 1314351651 +0800	commit: insn
+b76644ca0ae3cb5cec868efe0ee849d5b6adad2c dae4d899681d3276fcfba129e86417f988454ac9 tianman <arucuid@gmail.com> 1314351669 +0800	checkout: moving from tianman to gkk886
+dae4d899681d3276fcfba129e86417f988454ac9 c6ce700dfc9d40221241abba5cb613ee02233b90 tianman <arucuid@gmail.com> 1314351681 +0800	checkout: moving from gkk886 to gkk886new
+c6ce700dfc9d40221241abba5cb613ee02233b90 b76644ca0ae3cb5cec868efe0ee849d5b6adad2c tianman <arucuid@gmail.com> 1314713064 +0800	checkout: moving from gkk886new to tianman
+b76644ca0ae3cb5cec868efe0ee849d5b6adad2c c6ce700dfc9d40221241abba5cb613ee02233b90 tianman <arucuid@gmail.com> 1314713139 +0800	checkout: moving from tianman to gkk886new
+c6ce700dfc9d40221241abba5cb613ee02233b90 b76644ca0ae3cb5cec868efe0ee849d5b6adad2c tianman <arucuid@gmail.com> 1314713294 +0800	checkout: moving from gkk886new to tianman
+b76644ca0ae3cb5cec868efe0ee849d5b6adad2c c6ce700dfc9d40221241abba5cb613ee02233b90 tianman <arucuid@gmail.com> 1314713305 +0800	checkout: moving from tianman to gkk886new

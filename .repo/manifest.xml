@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!--
+ Copyright (C) 2010 PAS Lab.  All Rights Reserved.
+     - Tsai Tung-Chieh<tsaitungchieh@gmail.com>
+-->
+   
+   <remote  name="paslab"
+      fetch="http://repos.pas.csie.ntu.edu.tw/android.paslab/paslab/"
+      review="we.donot.host.gerrit.pas.csie.ntu.edu.tw" />
+   <default revision="paslab/master" remote="paslab" />
+
+   <!-- Bulding System and Some Scripts -->
+   <project path="build" name="platform/paslab.build">
+      <copyfile src="core/Makefile" dest="Makefile" /> 
+   </project>
+
+   <!-- Source codes -->
+   <project path="src/paciss" name="platform/paciss" />
+   <project path="src/qemu" name="platform/qemu" />
+   <project path="src/kernel/linux-2.6-pac" name="kernel/linux-2.6-pac" />
+   <project path="src/p2sdk" name="platform/p2sdk" />
+   <project path="testsuit" name="platform/testsuit" />
+
+   <project path="src/rootfs" name="platform/rootfs" />
+
+   <project path="src/extern/busybox" name="platform/extern/busybox" />
+
+   <!-- Prebuilt Binary -->
+   <project path="prebuilt" name="platform/prebuilt"
+       revision="paslab/master" />
+
+</manifest>

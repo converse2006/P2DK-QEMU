@@ -1,0 +1,26 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+[user]
+	name = tianman
+	email = arucuid@gmail.com
+[remote "paslab"]
+	url = http://repos.pas.csie.ntu.edu.tw/android.paslab/paslab/platform/qemu.git
+	review = we.donot.host.gerrit.pas.csie.ntu.edu.tw
+	projectname = platform/qemu
+	fetch = +refs/heads/*:refs/remotes/paslab/*
+[branch "tianman"]
+	remote = paslab
+	merge = paslab/master
+[branch "try"]
+	remote = paslab
+	merge = refs/heads/paslab/master
+[branch "chiaheng"]
+	remote = paslab
+	merge = refs/heads/paslab/chiaheng-tmp
+[branch "gkk886"]
+	remote = paslab
+	merge = refs/heads/paslab/gkk886/master
+[branch "gkk886new"]
+	remote = paslab
+	merge = refs/heads/paslab/gkk886/master
